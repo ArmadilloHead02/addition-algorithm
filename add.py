@@ -1,3 +1,4 @@
+import sys
 import time
 from datetime import datetime
 
@@ -6,6 +7,8 @@ num1 = input("Enter the first number: ")
 num2 = input("Enter the second number: ")
 
 start = int(datetime.now().strftime("%S"))
+
+print("Adding numbers...")
 
 time.sleep(int(num1))
 time.sleep(int(num2))
